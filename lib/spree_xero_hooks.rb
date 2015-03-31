@@ -1,4 +1,4 @@
-Deface::Override.new(:virtual_path => "spree/admin/general_settings/index",
+Deface::Override.new(:virtual_path => "spree/admin/general_settings/edit",
                        :insert_after => "[data-hook='admin_configurations_sidebar_menu'], #admin_configurations_sidebar_menu[data-hook]",
                        :text => "
         <tr>
