@@ -18,6 +18,9 @@ module SpreeXero
         preference :shipping_acct_code, :String, :default => '624'
         preference :adjustment_acct_code, :String, :default => '628'
         preference :payment_acct_code, :String, :default => '400'
+        preference :xero_consumer_key, :String
+        preference :xero_consumer_secret, :String
+        preference :private_key_file, :Text
       end
       
     end
