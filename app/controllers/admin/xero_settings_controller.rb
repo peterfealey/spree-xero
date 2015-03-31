@@ -1,4 +1,4 @@
-class Spree::Admin::XeroSettingsController < Spree::Admin::BaseController
+class Admin::XeroSettingsController < Spree::Admin::BaseController
 
   def update
 
