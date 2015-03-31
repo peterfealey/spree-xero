@@ -1,5 +1,4 @@
-class SpreeXeroHooks < Spree::ThemeSupport::HookListener
-  Deface::Override.new(:virtual_path => "admin/configurations/index",
+Deface::Override.new(:virtual_path => "spree/admin/configurations/index",
                        :insert_after => "[data-hook='admin_configurations_menu'], #admin_configurations_menu[data-hook]",
                        :text => "
         <tr>
@@ -8,4 +7,3 @@ class SpreeXeroHooks < Spree::ThemeSupport::HookListener
         </tr>
       ",
                        :disabled => false)
-end
