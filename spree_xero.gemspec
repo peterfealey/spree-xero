@@ -1,13 +1,13 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_xero'
-  s.version     = '0.70.99'
+  s.version     = '0.70.100'
   s.summary     = 'Add gem summary here'
   s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 1.8.7'
 
-  # s.author            = 'David Heinemeier Hansson'
-  # s.email             = 'david@loudthinking.com'
+  s.author            = 'Peter Fealey'
+  s.email             = 'peter.fealey@feeldigital.co.uk'
   # s.homepage          = 'http://www.rubyonrails.org'
   # s.rubyforge_project = 'actionmailer'
 
