@@ -1,4 +1,4 @@
-Payment.class_eval do
+Spree::Payment.class_eval do
   def submit_payment_to_xero
     saved_payment = nil
     if XeroUtil.setup_exists?

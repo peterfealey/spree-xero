@@ -1,4 +1,4 @@
-Order.class_eval do
+Spree::Order.class_eval do
   def submit_invoice_to_xero
     saved_invoice = nil
     if XeroUtil.setup_exists?

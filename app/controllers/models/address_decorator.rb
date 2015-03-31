@@ -1,4 +1,4 @@
-Address.class_eval do
+Spree::Address.class_eval do
   def submit_contact_to_xero
     saved_contact = nil
     if XeroUtil.setup_exists?
